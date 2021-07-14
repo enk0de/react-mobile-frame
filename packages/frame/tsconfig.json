@@ -22,5 +22,5 @@
     "downlevelIteration": true
   },
   "include": ["src"],
-  "exclude": ["dist"]
+  "exclude": ["lib"]
 }
