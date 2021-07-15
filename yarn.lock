@@ -4842,7 +4842,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^7.27.0, eslint@npm:^7.30.0":
+"eslint@npm:^7.30.0":
   version: 7.30.0
   resolution: "eslint@npm:7.30.0"
   dependencies:
@@ -5006,7 +5006,6 @@ __metadata:
     "@emotion/babel-plugin": ^11.3.0
     "@emotion/core": ^11.0.0
     "@emotion/css": ^11.1.3
-    "@emotion/eslint-plugin": ^11.2.0
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
     "@jest/types": ^27.0.1
@@ -5014,9 +5013,7 @@ __metadata:
     "@types/babel__core": ^7.1.14
     "@types/babel__plugin-transform-runtime": ^7.9.1
     "@types/babel__preset-env": ^7.9.1
-    "@types/eslint": ^7.2.12
     "@types/minimist": ^1.2.1
-    "@types/prettier": ^2.2.3
     "@types/react": ^17.0.8
     "@types/react-dom": ^17.0.5
     "@types/terser-webpack-plugin": ^5.0.3
@@ -5024,16 +5021,12 @@ __metadata:
     "@types/webpack-dev-server": ^3.11.4
     "@types/webpack-env": ^1.16.0
     "@types/webpack-manifest-plugin": ^3.0.4
-    "@typescript-eslint/eslint-plugin": ^4.25.0
-    "@typescript-eslint/parser": ^4.25.0
     babel-jest: ^27.0.1
     babel-loader: ^8.2.2
     copy-webpack-plugin: ^9.0.0
     del-cli: ^3.0.1
     depcheck: ^1.4.2
     dotenv: ^10.0.0
-    eslint: ^7.27.0
-    eslint-config-prettier: ^8.3.0
     html-webpack-plugin: ^5.3.1
     http-proxy-middleware: ^2.0.0
     husky: ^6.0.0
@@ -5041,7 +5034,6 @@ __metadata:
     inline-chunk-html-plugin: ^1.1.1
     jest: ^27.0.1
     minimist: ^1.2.5
-    prettier: ^2.3.0
     react: ^17.0.2
     react-dom: ^17.0.2
     react-mobile-frame: "workspace:*"
@@ -5433,7 +5425,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "frame@workspace:."
   dependencies:
+    "@emotion/eslint-plugin": ^11.2.0
+    "@types/eslint": ^7.2.12
+    "@types/prettier": ^2.2.3
+    "@typescript-eslint/eslint-plugin": ^4.25.0
+    "@typescript-eslint/parser": ^4.25.0
     eslint: ^7.30.0
+    eslint-config-prettier: ^8.3.0
     prettier: ^2.3.2
     typescript: ^4.3.5
   languageName: unknown
@@ -8773,7 +8771,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.3.0, prettier@npm:^2.3.2":
+"prettier@npm:^2.3.2":
   version: 2.3.2
   resolution: "prettier@npm:2.3.2"
   bin:
@@ -9025,7 +9023,6 @@ fsevents@^1.2.7:
     depcheck: ^1.4.2
     jest: ^27.0.1
     minimist: ^1.2.5
-    prettier: ^2.3.0
     ts-loader: ^9.2.3
     type-fest: ^1.1.3
     typescript: ^4.2.4
