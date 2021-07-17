@@ -62,6 +62,10 @@ module.exports = {
 	module: {
 		rules: [
 			{
+				test: /\.png|svg/,
+				type: 'asset/resource',
+			},
+			{
 				test: /\.ts(x?)$/,
 				use: [
 					{
