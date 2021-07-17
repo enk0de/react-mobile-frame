@@ -13,3 +13,7 @@ export const TabButton = styled.button`
 	border: none;
 	background: white;
 `;
+
+export const TabsContainer = styled.div`
+	display: flex;
+`;
